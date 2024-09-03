@@ -4,7 +4,7 @@ import numpy as np
 
 # Load the model
 try:
-    model = load('models/best_model.pkl')
+    model = load('best_model.pkl')
 except Exception as e:
     st.error(f"Model loading failed: {e}")
     st.stop()
